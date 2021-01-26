@@ -123,9 +123,15 @@ main span {
 }
 .twitter {
     background: #55acee;
-}
-.twitter {
     border: .3rem solid rgba(0,0,0,.1);
+}
+
+.twitch {
+    border: .3rem solid rgba(0,0,0,.1);
+    background-color: #6441a5;
+}
+.twitch img {
+    transform: scale(0.9,0.9);
 }
 .onlyfans {
     
