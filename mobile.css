@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+body {
+    margin: 0px;
+    background: url(./logos/bg.png);
+    background-repeat: repeat;
+    background-color: #721d5d;
+}
+h1 {
+    font-weight: 500;
+    font-size: 50px;
+    color: #ffff00;
+    text-align: center;
+}
+h2 {
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    color: #dddd00;
+    margin-top: -20px;
+}
+header {
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.95);
+    display: grid;
+    justify-items: center;
+}
+nav {
+    font-weight: 400;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.95);
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+nav ul {
+    margin-left: -35px;
+}
+nav li a{
+    color: #f9b7ff;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+main {
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.95);
+    margin-top: 30px;
+    display: grid;
+    justify-items: center;
+}
+main h3 {
+    color: #f9b7ff;
+    font-size: xx-large;
+}
+main span {
+    font-weight: 400;
+    text-align: center;
+    color: #f9b7ff;
+    width: 90%;
+    font-size: xx-large;
+    margin-bottom: 40px;
+}
+#other {
+    display: grid;
+    justify-content: center;
+}
+#yt {
+    display: grid;
+    justify-content: center;
+}
+#other a img {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+#yt .big_link img{
+    border: .3rem solid rgba(0,0,0,.1);
+    margin: 5px;
+    border-radius: 10%;
+    transition: all .3s ease;
+}
+#other .big_link {
+    
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10%;
+    transition: all .3s ease;
+}
+.big_link img {
+    width: 300px;
+    height: 300px;
+}
+.big_link a{
+    width: 240px;
+    height: 240px;
+}
+.twitter {
+    background: #55acee;
+}
+.twitter {
+    border: .3rem solid rgba(0,0,0,.1);
+}
+.twitch {
+    border: .3rem solid rgba(0,0,0,.1);
+    background-color: #6441a5;
+}
+.twitch img {
+    transform: scale(0.9,0.9);
+}
+.onlyfans {
+    
+    border: .3rem solid rgb(0,116,187);
+    background-image: linear-gradient(to right, #00aeef , #007af0);
+}
+
+#yt .haupt img {
+    background-color: #87136a;
+    border: .3rem solid #87136a
+}
