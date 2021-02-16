@@ -124,3 +124,17 @@ main span {
     background-color: #87136a;
     border: .3rem solid #87136a
 }
+#yt .lp img {
+    background-color: #745a3e;
+    border: .3rem solid #745a3e
+}
+
+#yt .trash img {
+    background-color: #3a3432;
+    border: .3rem solid #3a3432;
+}
+
+#yt .comm img {
+    background-color: #124c64;
+    border: .3rem solid #124c64;
+}

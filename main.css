@@ -97,8 +97,8 @@ main span {
     transition: all .3s ease;
 }
 .big_link img {
-    width: 15rem;
-    height: 15rem;
+    width: 12rem;
+    height: 12rem;
 }
 
 #yt .big_link:hover img {
@@ -145,4 +145,19 @@ main span {
 }
 .about_me {
     margin-top: 135px;
+}
+
+#yt .lp img {
+    background-color: #745a3e;
+    border: .3rem solid #745a3e
+}
+
+#yt .trash img {
+    background-color: #3a3432;
+    border: .3rem solid #3a3432;
+}
+
+#yt .comm img {
+    background-color: #124c64;
+    border: .3rem solid #124c64;
 }
