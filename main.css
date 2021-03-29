@@ -71,17 +71,27 @@ main span {
     font-size: xx-large;
     margin-bottom: 40px;
 }
-#other {
+#other1 {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    margin-bottom: -30px;
+}
+#other2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
     margin-bottom: -30px;
 }
 #yt {
     display: flex;
     justify-content: center;
 }
-#other a img {
+#other1 a img {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+#other2 a img {
     -webkit-filter: invert(1);
     filter: invert(1);
 }
@@ -90,7 +100,13 @@ main span {
     border-radius: 10%;
     transition: all .3s ease;
 }
-#other .big_link {
+#other1 .big_link {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10%;
+    transition: all .3s ease;
+}
+#other2 .big_link {
     margin: 5px;
     padding: 5px;
     border-radius: 10%;
@@ -111,7 +127,17 @@ main span {
     -moz-box-shadow:    0px 0px 40px 0px rgba(50, 50, 50, 0.77);
     box-shadow:         0px 0px 40px 0px rgba(50, 50, 50, 0.77);
 }
-#other .big_link:hover {
+#other1 .big_link:hover {
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 20%;
+    transform: scale(1.2,1.2);
+    box-shadow: black;
+    -webkit-box-shadow: 0px 0px 40px 0px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    0px 0px 40px 0px rgba(50, 50, 50, 0.77);
+    box-shadow:         0px 0px 40px 0px rgba(50, 50, 50, 0.77);
+}
+#other2 .big_link:hover {
     margin-left: 30px;
     margin-right: 30px;
     border-radius: 20%;

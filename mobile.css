@@ -68,32 +68,53 @@ main span {
     font-size: xx-large;
     margin-bottom: 40px;
 }
-#other {
+#other1 {
     display: grid;
     justify-content: center;
 }
+
+#other2 {
+    display: grid;
+    justify-content: center;
+}
+
 #yt {
     display: grid;
     justify-content: center;
 }
 
-#other a img {
+#other1 a img {
     -webkit-filter: invert(1);
     filter: invert(1);
 }
+
+#other2 a img {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
 #yt .big_link img{
     border: .3rem solid rgba(0,0,0,.1);
     margin: 5px;
     border-radius: 10%;
     transition: all .3s ease;
 }
-#other .big_link {
+#other1 .big_link {
+
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10%;
+    transition: all .3s ease;
+}
+
+#other2 .big_link {
     
     margin: 5px;
     padding: 5px;
     border-radius: 10%;
     transition: all .3s ease;
 }
+
 .big_link img {
     width: 300px;
     height: 300px;
@@ -146,4 +167,16 @@ main span {
 #yt .comm img {
     background-color: #124c64;
     border: .3rem solid #124c64;
+}
+
+.steam {
+    background-color: black;
+}
+.reddit {
+    background-color: #FF3F18;
+    border: .3rem solid rgba(0, 0, 0, 0.24);
+}
+.github {
+    background-color: #24292E;
+    border: .3rem solid rgba(0, 0, 0, 0.24);
 }
