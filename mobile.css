@@ -76,6 +76,7 @@ main span {
     display: grid;
     justify-content: center;
 }
+
 #other a img {
     -webkit-filter: invert(1);
     filter: invert(1);
@@ -114,6 +115,14 @@ main span {
 .twitch img {
     transform: scale(0.9,0.9);
 }
+.insta{
+    border: .3rem solid rgb(200,30,240);
+    background-image:linear-gradient(45deg,#ffd521 0%,#f0000e 33%,#b900b4 66%,#6000c6 100%);
+}
+.insta img {
+    transform: scale(0.9,0.9);
+}
+
 .onlyfans {
     
     border: .3rem solid rgb(0,116,187);
