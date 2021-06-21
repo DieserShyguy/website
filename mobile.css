@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
 
 html {
     font-family: 'Roboto', sans-serif;
@@ -10,19 +11,20 @@ body {
     margin: 0px;
     background: url(./logos/bg.png);
     background-repeat: repeat;
-    background-color: #721d5d;
+    background-color: #415156;
 }
 h1 {
+    font-family: 'Fugaz One', cursive;
     font-weight: 500;
     font-size: 50px;
-    color: #ffff00;
+    color: #ffffff;
     text-align: center;
 }
 h2 {
     font-weight: 500;
     font-size: 30px;
     text-align: center;
-    color: #dddd00;
+    color: #f7f7f7;
     margin-top: -20px;
 }
 header {
@@ -43,7 +45,7 @@ nav ul {
     margin-left: -35px;
 }
 nav li a{
-    color: #f9b7ff;
+    color: #ffffff;
     font-size: 30px;
     margin-left: 20px;
     margin-right: 20px;
@@ -57,13 +59,15 @@ main {
     justify-items: center;
 }
 main h3 {
-    color: #f9b7ff;
+    color: #ffffff;
     font-size: xx-large;
+    text-align: center;
+    text-decoration: underline;
 }
 main span {
     font-weight: 400;
     text-align: center;
-    color: #f9b7ff;
+    color: #ffffff;
     width: 90%;
     font-size: xx-large;
     margin-bottom: 40px;
@@ -144,29 +148,20 @@ main span {
     transform: scale(0.9,0.9);
 }
 
-.onlyfans {
-    
-    border: .3rem solid rgb(0,116,187);
-    background-image: linear-gradient(to right, #00aeef , #007af0);
-}
 
 #yt .haupt img {
-    background-color: #87136a;
-    border: .3rem solid #87136a
-}
-#yt .lp img {
-    background-color: #745a3e;
-    border: .3rem solid #745a3e
+    background-color: #464249;
+    border: .3rem solid #464249
 }
 
 #yt .trash img {
-    background-color: #3a3432;
-    border: .3rem solid #3a3432;
+    background-color: #384b81;
+    border: .3rem solid #384b81;
 }
 
 #yt .comm img {
-    background-color: #124c64;
-    border: .3rem solid #124c64;
+    background-color: #000000;
+    border: .3rem solid #000000;
 }
 
 .steam {
@@ -179,4 +174,9 @@ main span {
 .github {
     background-color: #24292E;
     border: .3rem solid rgba(0, 0, 0, 0.24);
+}
+#audio {
+    margin-top: -120px;
+    margin-bottom: 50px;
+    width: calc(100% - 100px);
 }

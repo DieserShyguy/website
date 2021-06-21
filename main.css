@@ -10,15 +10,15 @@ body {
     margin: 0px;
     background: url(./logos/bg.png);
     background-repeat: repeat;
-    background-color: #721d5d;
+    background-color: #415156;
 }
 h1 {
     font-weight: 500;
     font-size: 70px;
-    color: #ffff00;
+    color: #ffffff;
 }
 h2 {
-    color: #dddd00;
+    color: #f7f7f7;
     margin-top: -40px;
 }
 header {
@@ -41,7 +41,7 @@ nav ul {
 }
 nav li a{
     font-weight: 400;
-    color: #f9b7ff;
+    color: #ffffff;
     font-size: 30px;
     margin-left: 20px;
     margin-right: 20px;
@@ -60,16 +60,18 @@ main {
     margin-bottom: 110px;
 }
 main h3 {
-    color: #f9b7ff;
+    color: #ffffff;
     font-size: xx-large;
+    text-align: center;
+    text-decoration: underline;
 }
 main span {
     font-weight: 400;
-    color: #f9b7ff;
+    color: #ffffff;
     text-align: center;
     width: 90%;
     font-size: xx-large;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 #other1 {
     display: flex;
@@ -159,31 +161,22 @@ main span {
 .twitch img {
     transform: scale(0.9,0.9);
 }
-.onlyfans {
-    
-    border: .3rem solid rgb(0,116,187);
-    background-image: linear-gradient(to right, #00aeef , #007af0);
-}
 
 #yt .haupt img {
-    background-color: #87136a;
-    border: .3rem solid #87136a
+    background-color: #464249;
+    border: .3rem solid #464249
 }
 .about_me {
     margin-top: 135px;
 }
 
-#yt .lp img {
-    background-color: #745a3e;
-    border: .3rem solid #745a3e
-}
 
 #yt .trash img {
-    background-color: #3a3432;
-    border: .3rem solid #3a3432;
+    background-color: #384b81;
+    border: .3rem solid #384b81;
 }
 
 #yt .comm img {
-    background-color: #124c64;
-    border: .3rem solid #124c64;
+    background-color: #000000;
+    border: .3rem solid #000000;
 }

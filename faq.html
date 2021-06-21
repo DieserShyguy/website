@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>gelberShyguy</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='mobile.css'>
+    <link rel="stylesheet" href="main.css" media="(min-aspect-ratio: 2/2)">
+
+</head>
+<script>
+function alterBerechnen() {
+    year = new Date().getFullYear()
+    now = new Date().getTime()
+    geburtstagDiesesJahr = new Date("Sep 16 " + year + " 00:00:00").getTime()
+
+    if(now >= geburtstagDiesesJahr) {
+        var age = year - 2003
+    } else {
+        var age = (year -1) -2003
+    }
+    document.getElementById("alter").innerHTML = "Ich bin am 16. Sep&shy;tem&shy;ber 2003 ge&shy;bo&shy;ren und da&shy;mit  " + age + " Jah&shy;re alt!"
+}
+</script>
+<body onload="alterBerechnen()">
+    <header>
+        <h1>Bela's Home&shy;page</h1>
+        <h2>FAQ</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a class="selected" href="./faq.html">FAQ</a></li>
+        </ul>
+    </nav>
+    <main class="about_me">
+        <h3>Was ist das?</h3>
+        <span>Hier wer&shy;den ei&shy;ni&shy;ge Fra&shy;gen be&shy;ant&shy;wor&shy;tet, die mir ge&shy;stellt wer&shy;den könn&shy;ten.</span>
+        <br>
+        <h3>Wa&shy;rum hast du dei&shy;nen Na&shy;men ge&shy;än&shy;dert?</h3>
+        <span>Ich hat&shy;te Angst, dass ir&shy;gend&shy;wann al&shy;le mei&shy;ne Pro&shy;fi&shy;le, Ka&shy;nä&shy;le etc. von Nin&shy;ten&shy;do ge&shy;sperrt wer&shy;den. Ich mag im&shy;mer noch Nin&shy;ten&shy;do! Da&shy;ran hat sich nichts ge&shy;än&shy;dert! Im&shy;mer&shy;hin ha&shy;be ich auf dem Pro&shy;fil&shy;bild ei&shy;ne Game&shy;cube&shy;kon&shy;so&shy;le in der Hand.</span>
+        <h3>Wie Spricht man dei&shy;nen Na&shy;men aus?</h3>
+        <audio id="audio" src="./audio/Bela.mp3" controls="controls"></audio>
+        <br>
+        <h3>Wie kamst du auf dei&shy;nen Na&shy;men?</h3>
+        <span>Mei&shy;ne El&shy;tern ha&shy;ben ihn mir ge&shy;schenkt!</span>
+        <br>
+        <h3>Wie alt bist du?</h3>
+        <span id="alter">Error: 420</span>
+        <br>
+        <h3>Hast du ge&shy;ra&shy;de 2 Stun&shy;den da&shy;mit ver&shy;bracht, dein Al&shy;ter in Ja&shy;va&shy;Script aus&shy;zu&shy;rech&shy;nen, da&shy;mit du es nicht im&shy;mer ma&shy;nu&shy;ell än&shy;dern musst?</h3>
+        <span>Ja :'-(</span>
+        <br>
+        <h3>Machst du Vi&shy;de&shy;os?</h3>
+        <span>Ob&shy;wohl ich meh&shy;re&shy;re You&shy;Tube-Ka&shy;nä&shy;le ha&shy;be, ma&shy;che ich kei&shy;ne Vi&shy;de&shy;os. Ich ha&shy;be Bock wel&shy;che zu ma&shy;chen und ha&shy;be auch in der Ver&shy;gan&shy;gen&shy;heit ver&shy;sucht, Vi&shy;de&shy;os zu ma&shy;chen, ab&shy;er im Pro&shy;zess ma&shy;che ich ir&shy;gend&shy;wann gar nichts mehr da&shy;für und ver&shy;lie&shy;re die Lust da&shy;ran. Vie&shy;leicht kom&shy;men ir&shy;gend&shy;wann Vi&shy;de&shy;os, ab&shy;er ich kann es nicht ver&shy;spre&shy;chen!</span>
+        <br>
+        <h3>Wa&shy;rum ist mei&shy;ne Fra&shy;ge nicht da&shy;bei?</h3>
+        <span>Vie&shy;leicht ist dei&shy;ne Fra&shy;ge zu spe&shy;zi&shy;fisch, die Fra&shy;ge wird mir sel&shy;ten ge&shy;stellt od&shy;er das FAQ ist nicht ak&shy;tu&shy;ell, al&shy;so ich ha&shy;be die&shy;se Sei&shy;te hier noch nicht ak&shy;tu&shy;a&shy;li&shy;siert. Wenn mir Fra&shy;gen öf&shy;ter ge&shy;stellt wer&shy;den, kom&shy;men sie hier rein. <b> Das ist abe&shy;r kei&shy;ne Auf&shy;for&shy;der&shy;ung zum Spam&shy;men! Spam wird ig&shy;no&shy;riert od&shy;er Blo&shy;ckiert. Und Fra&shy;gen, die mei&shy;ner Mei&shy;nung nach Sinn&shy;los od&shy;er Dumm sind kom&shy;men hier auch nicht rein!</b></span>
+    </main>
+</body>
+</html>
