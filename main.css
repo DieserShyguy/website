@@ -180,3 +180,6 @@ main span {
     background-color: #000000;
     border: .3rem solid #000000;
 }
+#audio {
+	margin-top: -20px;
+}

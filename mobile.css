@@ -176,7 +176,7 @@ main span {
     border: .3rem solid rgba(0, 0, 0, 0.24);
 }
 #audio {
-    margin-top: -120px;
+    margin-top: -20px;
     margin-bottom: 50px;
     width: calc(100% - 100px);
 }
